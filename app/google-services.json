@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "166034555262",
+    "firebase_url": "https://parentcontrol-66936-default-rtdb.firebaseio.com",
+    "project_id": "parentcontrol-66936",
+    "storage_bucket": "parentcontrol-66936.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166034555262:android:4006d9e4cfeb62ef45732f",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.potros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD95K7YQ37LF9LwyLFIP3gRQnZrJF2_z_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166034555262:android:9aa4ebf08935e02345732f",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.potros.parentchopper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD95K7YQ37LF9LwyLFIP3gRQnZrJF2_z_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166034555262:android:5fa1778443cbd7c145732f",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.potros.parentscontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD95K7YQ37LF9LwyLFIP3gRQnZrJF2_z_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166034555262:android:909f748eb46b4be945732f",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.potros.schoolparentscontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD95K7YQ37LF9LwyLFIP3gRQnZrJF2_z_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

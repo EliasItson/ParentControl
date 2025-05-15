@@ -1,0 +1,37 @@
+<!-- res/layout/teacher_card.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTeacherName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del profesor"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvTeacherSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materia"/>
+
+        <TextView
+            android:id="@+id/tvTeacherStudents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alumnos: Juan, Ana"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

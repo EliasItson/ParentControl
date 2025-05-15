@@ -1,0 +1,36 @@
+<!-- res/layout/dialog_teacher_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dialogTeacherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dialogTeacherSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia"/>
+
+    <TextView
+        android:id="@+id/dialogTeacherStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumnos"/>
+    <ImageView
+        android:id="@+id/ivChatIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_menu_send"
+        android:contentDescription="Chat"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="end" />
+
+</LinearLayout>

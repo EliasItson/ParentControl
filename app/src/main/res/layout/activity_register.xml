@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <EditText android:id="@+id/emailRegister"
+        android:hint="Correo electrónico" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="textEmailAddress"/>
+
+    <EditText android:id="@+id/passwordRegister"
+        android:hint="Contraseña" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="textPassword"/>
+
+    <Button android:id="@+id/registerButton"
+        android:text="Registrarse" android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/goToLogin"
+        android:text="¿Ya tienes cuenta? Inicia sesión" android:textAlignment="center"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
